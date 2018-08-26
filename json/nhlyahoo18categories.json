@@ -1,0 +1,184 @@
+"stat_categories": [
+    {
+        "stat_id": 1,
+        "name": "Goals",
+        "display_name": "G",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "P"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 2,
+        "name": "Assists",
+        "display_name": "A",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "P"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 4,
+        "name": "Plus\/Minus",
+        "display_name": "+\/-",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "P"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 8,
+        "name": "Powerplay Points",
+        "display_name": "PPP",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "P"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 14,
+        "name": "Shots on Goal",
+        "display_name": "SOG",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "P"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 31,
+        "name": "Hits",
+        "display_name": "HIT",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "P"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 0,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 19,
+        "name": "Wins",
+        "display_name": "W",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 22,
+        "name": "Goals Against",
+        "display_name": "GA",
+        "stat_modifier": 0,
+        "sort_order": 0,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 1,
+        "decimal_points": 0,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 23,
+        "name": "Goals Against Average",
+        "display_name": "GAA",
+        "stat_modifier": 0,
+        "sort_order": 0,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "avg",
+        "is_only_display_stat": 0,
+        "decimal_points": 2,
+        "is_composite_stat": 1
+    },
+    {
+        "stat_id": 25,
+        "name": "Saves",
+        "display_name": "SV",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 1,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 24,
+        "name": "Shots Against",
+        "display_name": "SA",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 1,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    },
+    {
+        "stat_id": 26,
+        "name": "Save Percentage",
+        "display_name": "SV%",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "avg",
+        "is_only_display_stat": 0,
+        "decimal_points": 3,
+        "is_composite_stat": 1
+    },
+    {
+        "stat_id": 27,
+        "name": "Shutouts",
+        "display_name": "SHO",
+        "stat_modifier": 0,
+        "sort_order": 1,
+        "stat_position_types": [
+            "G"
+        ],
+        "operator": "sum",
+        "is_only_display_stat": 0,
+        "decimal_points": 1,
+        "is_composite_stat": 0
+    }
+],
