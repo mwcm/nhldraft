@@ -1,1 +1,1 @@
-help for the 18 19 draft
+help for 18-19 fantasy draft
