@@ -1,26 +1,39 @@
-from util import database
+from util import database, load_json
 from models.Player import Player
 from models.Category import Category
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
-def init():
-    engine, Session = database.init_db()
-    test(Session)
+def setup():
+    engine, SessionMaker = database.init_db()
+    s = SessionMaker()
+    load_json.main() # load json data in tables
+    test(s)
+    s.commit()
+    s.close()
+    raise SystemExit
 
-
-def main():
-    engine, Session = database.connect()
-    test(Session)
+def test_setup():
+    engine, SessionMaker = database.init_db()
+    s = SessionMaker()
+    load_json.main() # load json data in tables
+    test(s)
+    s.commit()
+    s.close()
+    database.cleanup(SessionMaker, engine)
     raise SystemExit
 
 
-def test(Session):
-    s = Session()
-    q = s.query(Player).all()
-    q = s.query(Category).all()
-    print(q)
+def test(session):
+    print('\n\n TEST \n\n')
+    q1 = session.query(Player).first()
+    q2 = session.query(Category).first()
+    print(q1.__dict__)
+    print(q2.__dict__)
+    print('\n\n TEST FINISHED \n\n')
+
+
 
 if __name__ == '__main__':
-    main()
+    setup()

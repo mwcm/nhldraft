@@ -1,4 +1,4 @@
-"stat_categories": [
+[
     {
         "stat_id": 1,
         "name": "Goals",
@@ -181,4 +181,4 @@
         "decimal_points": 1,
         "is_composite_stat": 0
     }
-],
+]
