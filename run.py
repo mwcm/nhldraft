@@ -14,17 +14,6 @@ def setup():
     s.close()
     raise SystemExit
 
-def test_setup():
-    engine, SessionMaker = database.init_db()
-    s = SessionMaker()
-    load_json.main() # load json data in tables
-    test(s)
-    s.commit()
-    s.close()
-    database.cleanup(SessionMaker, engine)
-    raise SystemExit
-
-
 def test(session):
     print('\n\n TEST \n\n')
     q1 = session.query(Player).first()
