@@ -9,9 +9,9 @@ def setup():
     engine, SessionMaker = database.init_db()
     s = SessionMaker()
     load_json.main() # load json data in tables
-    test(s)
     s.commit()
     s.close()
+    test(s)
     raise SystemExit
 
 def test(session):

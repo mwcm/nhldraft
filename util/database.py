@@ -15,6 +15,9 @@ def connect():
 
 def init_db():
    engine, Session = connect()
+   # TODO:
+   # create database
+   # create schema
    Base.metadata.create_all(bind=engine)
    return engine, Session
 
