@@ -18,7 +18,7 @@ def import_json_file(name):
 
 def import_json():
    category_data = import_json_file('categories')
-   players = import_json_file('players')
+   players = import_json_file('players2019')
    data = {'category_data':category_data,
            'player_data':players}
    return data
